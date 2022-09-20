@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SplashPhoto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_photo_list_label">Splash Photo List</string>
+    <string name="fragment_photo_details">Photo Details</string>
+    <string name="photo">Photo</string>
+    <string name="server_error">Oops We can \'t load the data</string>
+    <string name="try_again">Try Again</string>
+</resources>
