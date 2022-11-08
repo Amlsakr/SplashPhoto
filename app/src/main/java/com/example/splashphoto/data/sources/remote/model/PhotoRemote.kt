@@ -10,7 +10,7 @@ import kotlinx.parcelize.Parcelize
 
 @Keep
 @Parcelize
-data class PhotoRemote(
+ data class PhotoRemote(
     @SerializedName("author")
     var author: String? = null, // Alejandro Escamilla
     @SerializedName("download_url")

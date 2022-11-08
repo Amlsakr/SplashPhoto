@@ -9,6 +9,7 @@ interface PhotosApiService {
     @GET("v2/list")
     fun getPhotoList(
         @Query("page") page:Int ,
-        @Query("limit") limit:Int
+        @Query("limit") limit:Int,
+        @Query("client_id") clientID: String
     ):List<PhotoRemote>
 }
